@@ -1,4 +1,7 @@
 {
-  "singleQuote": true,
-  "arrowParens": "avoid"
+  "Log to console": {
+    "prefix": "cl",
+    "body": ["console.log('$1');", "$2"],
+    "description": "Log output to console"
+  }
 }
